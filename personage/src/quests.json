@@ -1,0 +1,28 @@
+[{
+    "id": "id-1",
+    "name": "push-ups",
+    "count_of_repeats": "3x10",
+    "vitalityAdd":0.003,
+    "strengthAdd": 0.003,
+    "intelligenceAdd": 0.000,
+    "spiritualPowerAdd": 0.001
+},
+{
+    "id": "id-2",
+    "name": "reading book",
+    "count_of_repeats": "30 pages",
+    "vitalityAdd":0.000,
+    "strengthAdd": 0.000,
+    "intelligenceAdd": 0.006,
+    "spiritualPowerAdd": 0.002 
+},
+{
+    "id": "id-3",
+    "name": "learning programming",
+    "count_of_repeats": "1 hour",
+    "vitalityAdd":0.000,
+    "strengthAdd": 0.000,
+    "intelligenceAdd": 0.006,
+    "spiritualPowerAdd": 0.002 
+}
+]
