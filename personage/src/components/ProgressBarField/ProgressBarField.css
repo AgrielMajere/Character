@@ -1,0 +1,37 @@
+.state-box {
+  display: flex;
+  flex-direction: row;
+  width: 520px;
+  background-color: #ddd;
+  margin-top: 10px;
+}
+
+.state {
+  text-align: right;
+  padding-right: 20px;
+  line-height: 20px;
+  color: white;
+}
+
+.stregth {
+  width: 0.6px;
+  background-color: #4caf50;
+}
+.vitality {
+  width: 0.5px;
+  background-color: #f44336;
+}
+.intelligence {
+  width: 0.8px;
+  background-color: #2196f3;
+}
+.spiritual-power {
+  width: 0.7px;
+  background-color: #808080;
+}
+.userStrengthState,
+.userVitalityState,
+.userIntelligenceState,
+.userSpiritualPowerState {
+  margin-left: 4px;
+}

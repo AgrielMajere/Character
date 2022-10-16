@@ -1,4 +1,6 @@
-* {box-sizing: border-box}
+* {
+  box-sizing: border-box;
+}
 body,
 h1,
 h2,
@@ -15,11 +17,11 @@ dl,
 dd {
   margin: 0;
 }
-ul{
+ul {
   padding: 0;
 }
 
-li{
+li {
   list-style: none;
 }
 
@@ -39,95 +41,51 @@ li{
 }
 
 /* /////////////////// AVATAR ///////////////////// */
-.avatar__box{
+.avatar__box {
   width: 450px;
 }
 
 .avatar__img {
+  display: block;
   width: 240px;
   height: 320px;
-  background-size: cover;
-  background-repeat: no-repeat;
 }
 
-.user__data{
+.user__info-box {
+  margin-top: 15px;
+  width: 100%;
   display: flex;
+  justify-content: space-between;
   flex-direction: row;
-  justify-content: space-around;
-  margin-top: 10px;
 }
 
-.user__data_span{
+.user__data {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  align-items: center;
+}
+
+.user__data_span {
   color: #1833aa;
   font-weight: bold;
 }
 
-.user-states-box{
+.user-states-box {
   margin-top: 15px;
 }
 
-.state-box {
-  display: flex;
-  flex-direction: row;
-  width: 100%;
-  background-color: #ddd;
-  margin-top: 10px;
-}
-
-.state {
-  text-align: right;
-  padding-right: 20px;
-  line-height: 20px;
-  color: white;
-}
-
-.stregth {width: 15%; background-color: #4CAF50;}
-.vitality {width: 14%; background-color: #f44336;}
-.intelligence {width: 16%; background-color: #2196F3;}
-.spiritual-power {width: 15%; background-color: #808080;}
-
 /* /////////////////// QUESTS ///////////////////// */
 
-.quests__box{
+.quests__box {
   min-width: 450px;
   padding: 15px;
   outline: 1px solid #000;
+  background-color: #fff4cc;
 }
 
-.quests__box-title{
-
+.quests__box-title {
   font-weight: bold;
-}
-
-
-.one-quest-box{
-  min-height: 40px;
-  text-align: left;
-  font-size: 20px;
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  padding: 0 5px;
-  margin-top: 10px;
-
-  outline: 1px solid #000;
-  border-radius: 7px;
-}
-
-.one-quest__title{
-  font-weight: bold;
-  margin: auto 15px auto 15px;
-}
-
-.quests__states-box{
-margin: 0 15px 0 auto;
-color: green;
-}
-
-.states-add-count{
-  font-size: 10px;
 }
 
 /* .App-logo {

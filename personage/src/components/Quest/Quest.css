@@ -1,0 +1,39 @@
+.one-quest-box {
+  min-height: 40px;
+  text-align: left;
+  font-size: 20px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 5px;
+  margin-top: 10px;
+  background-color: #fff;
+  outline: 1px solid #000;
+  border-radius: 7px;
+}
+
+.one-quest__title {
+  font-weight: bold;
+  margin: auto 15px auto 15px;
+}
+
+.quests__states-box {
+  margin: 0 15px 0 auto;
+  color: green;
+}
+
+.states-add-count {
+  font-size: 10px;
+}
+
+.one-quest__done-button {
+  font-size: 13px;
+  font-weight: bold;
+  background-color: #ffbd12;
+  border-radius: 12px;
+  padding: 5px 8px;
+  box-shadow: 0px 2px 0 #18191f;
+  gap: 10px;
+}
