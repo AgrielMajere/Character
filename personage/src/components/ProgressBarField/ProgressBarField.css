@@ -1,33 +1,49 @@
+.states-field {
+  margin-top: 40px;
+}
+
 .state-box {
   display: flex;
   flex-direction: row;
   width: 520px;
   background-color: #ddd;
-  margin-top: 10px;
+  margin-top: 5px;
+}
+
+.strength-box {
+  background-color: #c1e5c4;
+}
+
+.vitality-box {
+  background-color: #dbb6b3;
+}
+.intelligence-box {
+  background-color: #9ebbd3;
+}
+.spiritual-power-box {
+  background-color: #e5d0f3;
 }
 
 .state {
   text-align: right;
-  padding-right: 20px;
   line-height: 20px;
-  color: white;
 }
 
 .stregth {
-  width: 0.6px;
+  width: 1.02px;
   background-color: #4caf50;
 }
 .vitality {
-  width: 0.5px;
+  width: 0.95px;
   background-color: #f44336;
 }
 .intelligence {
-  width: 0.8px;
+  width: 0.97px;
   background-color: #2196f3;
 }
 .spiritual-power {
-  width: 0.7px;
-  background-color: #808080;
+  width: 0.87px;
+  background-color: #6a199f;
 }
 .userStrengthState,
 .userVitalityState,

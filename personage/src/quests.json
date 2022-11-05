@@ -2,11 +2,11 @@
   {
     "id": "id-1",
     "name": "push-ups",
-    "count_of_repeats": "3x10",
-    "vitalityAdd": 0.03,
-    "strengthAdd": 0.04,
+    "count_of_repeats": "3x9",
+    "vitalityAdd": 0.02,
+    "strengthAdd": 0.03,
     "intelligenceAdd": 0.0,
-    "spiritualPowerAdd": 0.03
+    "spiritualPowerAdd": 0.02
   },
   {
     "id": "id-2",
@@ -14,8 +14,8 @@
     "count_of_repeats": "30 pages",
     "vitalityAdd": 0.0,
     "strengthAdd": 0.0,
-    "intelligenceAdd": 0.06,
-    "spiritualPowerAdd": 0.02
+    "intelligenceAdd": 0.03,
+    "spiritualPowerAdd": 0.03
   },
   {
     "id": "id-3",
@@ -23,7 +23,34 @@
     "count_of_repeats": "1 hour",
     "vitalityAdd": 0.0,
     "strengthAdd": 0.0,
-    "intelligenceAdd": 0.06,
+    "intelligenceAdd": 0.05,
+    "spiritualPowerAdd": 0.03
+  },
+  {
+    "id": "id-4",
+    "name": "pump abs",
+    "count_of_repeats": "3х22",
+    "vitalityAdd": 0.03,
+    "strengthAdd": 0.01,
+    "intelligenceAdd": 0.0,
+    "spiritualPowerAdd": 0.02
+  },
+  {
+    "id": "id-5",
+    "name": "squats",
+    "count_of_repeats": "3х13",
+    "vitalityAdd": 0.02,
+    "strengthAdd": 0.02,
+    "intelligenceAdd": 0.0,
+    "spiritualPowerAdd": 0.02
+  },
+  {
+    "id": "id-6",
+    "name": "playing guitar",
+    "count_of_repeats": "6 songs",
+    "vitalityAdd": 0,
+    "strengthAdd": 0,
+    "intelligenceAdd": 0.01,
     "spiritualPowerAdd": 0.02
   }
 ]

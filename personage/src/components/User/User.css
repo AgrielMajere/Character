@@ -1,0 +1,34 @@
+.avatar__box {
+  padding-top: 0;
+  width: 450px;
+}
+
+.avatar__img {
+  display: block;
+  width: 240px;
+  height: 320px;
+}
+
+.user__info-box {
+  margin-top: 15px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.user__data {
+  display: flex;
+  flex-direction: column;
+  margin-top: 5px;
+  align-items: center;
+}
+
+.user__data_span {
+  color: #1833aa;
+  font-weight: bold;
+}
+
+.user-states-box {
+  margin-top: 15px;
+}

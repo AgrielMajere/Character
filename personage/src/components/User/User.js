@@ -1,3 +1,4 @@
+import '../User/User.css';
 import PropTypes from 'prop-types';
 
 const User = ({
@@ -30,7 +31,6 @@ const User = ({
           </p>
         </div>
       </div>
-      <div className="user-states-box"></div>
     </div>
   );
 };
