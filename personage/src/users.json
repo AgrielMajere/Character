@@ -4,10 +4,10 @@
     "avatarUrl": "./images/wizard_level_1.jpg",
     "name": "Lord Darkness",
     "rank": "Human",
-    "level": "1",
-    "strength": 0.74,
-    "vitality": 0.65,
-    "intelligence": 0.9,
-    "spiritualPower": 0.58
+    "level": "0",
+    "strength": 1.26,
+    "vitality": 1.25,
+    "intelligence": 1.13,
+    "spiritualPower": 1.18
   }
 ]

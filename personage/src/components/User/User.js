@@ -1,9 +1,25 @@
 import '../User/User.css';
 import PropTypes from 'prop-types';
 
+// class TempUser {
+//   constructor() {
+//     super();
+//   }
+//   userName;
+//   userRank;
+//   userLevel;
+//   userStrength;
+//   userVitality;
+//   userIntelligence;
+//   userSpiritualPower;
+
+//   static updateUserData(params) {}
+// }
+// const mainUser = new TempUser('localhost');
+
 const User = ({
   avatarUrl,
-  userName,
+  name,
   rank,
   level,
   strength,
@@ -21,7 +37,7 @@ const User = ({
         />
         <div className="user__info-box">
           <p className="user__name">
-            Name: <span className="user__data_span">{userName}</span>
+            Name: <span className="user__data_span">{name}</span>
           </p>
           <p className="user__rate">
             class: <span className="user__data_span">{rank}</span>
@@ -37,7 +53,7 @@ const User = ({
 
 User.propTypes = {
   avatarUrl: PropTypes.string.isRequired,
-  userName: PropTypes.string.isRequired,
+  name: PropTypes.string.isRequired,
   rank: PropTypes.string.isRequired,
   level: PropTypes.string.isRequired,
   strength: PropTypes.number.isRequired,

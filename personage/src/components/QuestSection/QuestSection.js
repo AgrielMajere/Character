@@ -10,6 +10,9 @@ function QuestSection(props) {
       <div className="quests__field">
         <QuestList quests={quests} />
       </div>
+      <div className="finished-quests__info-box">
+        <span className="finished-quests__title">Finished Quests</span>
+      </div>
     </div>
   );
 }

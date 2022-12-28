@@ -1,4 +1,5 @@
 import '../Quest/Quest.css';
+import users from '../../../src/users.json';
 import PropTypes from 'prop-types';
 const Quest = ({
   quest_name,
@@ -31,7 +32,13 @@ const Quest = ({
           <span>{spiritualPowerAdd > 0 && spiritualPowerAdd}</span>
         </p>
       </div>
-      <button className="one-quest__done-button" type="button">
+      <button
+        className="one-quest__done-button"
+        type="button"
+        onClick={() => {
+          users[0].strength = { strengthAdd };
+        }}
+      >
         Done
       </button>
     </div>

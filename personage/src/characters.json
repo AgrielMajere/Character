@@ -1,0 +1,92 @@
+[
+  {
+    "id": "id-1",
+    "name": "Gladiator",
+    "level": "1",
+    "img": "",
+    "requiredStrength": 2,
+    "requiredvitality": "-",
+    "requiredIntelligence": "-",
+    "requiredSpiritualPower": "-"
+  },
+  {
+    "id": "id-2",
+    "name": "Warrior",
+    "level": "2",
+    "img": "",
+    "requiredStrength": 5,
+    "requiredvitality": "-",
+    "requiredIntelligence": "-",
+    "requiredSpiritualPower": "-"
+  },
+  {
+    "id": "id-3",
+    "name": "Warrior",
+    "level": "3",
+    "img": "",
+    "requiredStrength": 10,
+    "requiredvitality": "-",
+    "requiredIntelligence": "-",
+    "requiredSpiritualPower": "-"
+  },
+  {
+    "id": "id-4",
+    "name": "Knight",
+    "level": "1",
+    "img": "",
+    "requiredStrength": 50,
+    "requiredvitality": "-",
+    "requiredIntelligence": "-",
+    "requiredSpiritualPower": "-"
+  },
+  {
+    "id": "id-5",
+    "name": "Knight",
+    "level": "2",
+    "img": "",
+    "requiredStrength": 100,
+    "requiredvitality": "-",
+    "requiredIntelligence": "-",
+    "requiredSpiritualPower": "-"
+  },
+  {
+    "id": "id-6",
+    "name": "Knight",
+    "level": "3",
+    "img": "",
+    "requiredStrength": 200,
+    "requiredvitality": "-",
+    "requiredIntelligence": "-",
+    "requiredSpiritualPower": "-"
+  },
+  {
+    "id": "id-7",
+    "name": "Great Warrior",
+    "level": "1",
+    "img": "",
+    "requiredStrength": 500,
+    "requiredvitality": "-",
+    "requiredIntelligence": "-",
+    "requiredSpiritualPower": "-"
+  },
+  {
+    "id": "id-8",
+    "name": "Great Warrior",
+    "level": "2",
+    "img": "",
+    "requiredStrength": 1000,
+    "requiredvitality": "-",
+    "requiredIntelligence": "-",
+    "requiredSpiritualPower": "-"
+  },
+  {
+    "id": "id-9",
+    "name": "Legendary Warrior",
+    "level": "3",
+    "img": "",
+    "requiredStrength": 5000,
+    "requiredvitality": "-",
+    "requiredIntelligence": "-",
+    "requiredSpiritualPower": "-"
+  }
+]

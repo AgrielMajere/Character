@@ -15,7 +15,7 @@ function App() {
           {/* //////////////////////////  USER  /////////////////////////// */}
           <User
             avatarUrl={defaultImg}
-            userName={users[0].name}
+            name={users[0].name}
             rank={users[0].rank}
             level={users[0].level}
             strength={users[0].strength}

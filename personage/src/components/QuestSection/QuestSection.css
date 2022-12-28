@@ -1,5 +1,9 @@
 .quests__box {
-  min-width: 450px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 30px;
+  width: 100%;
+  max-width: 500px;
   padding: 15px;
   outline: 1px solid #000;
   background-color: #fff4cc;
@@ -7,4 +11,63 @@
 
 .quests__box-title {
   font-weight: bold;
+}
+
+.finished-quests-info-box {
+  display: flex;
+  min-width: 100px;
+  min-height: 120px;
+}
+
+.finished-quests__title {
+  display: none;
+  font-size: large;
+  padding: 40px 50px;
+  background: linear-gradient(
+    to right,
+    rgb(127, 198, 127),
+    rgb(79, 203, 72),
+    rgb(127, 198, 127)
+  );
+  border-radius: 20px 20px 5px 5px;
+  margin-top: 70px;
+}
+
+@media screen and (min-width: 360px) and (max-width: 649px) {
+  .quests__box {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+    margin: 40px 0 15px 0;
+    min-height: 100px;
+    padding: 10px;
+  }
+  .finished-quests-info-box {
+    min-width: 360px;
+    margin-top: 50px;
+  }
+  .finished-quests__title {
+    padding: 25px 15px;
+  }
+}
+
+@media screen and (min-width: 650px) and (max-width: 769px) {
+  .quests__box {
+    min-width: 350px;
+    margin-left: 10px;
+  }
+}
+
+@media screen and (min-width: 770px) and (max-width: 849px) {
+  .quests__box {
+    min-width: 400px;
+  }
+}
+
+@media screen and (min-width: 850px) and (max-width: 1200px) {
+  .quests__box {
+    min-width: 450px;
+  }
 }

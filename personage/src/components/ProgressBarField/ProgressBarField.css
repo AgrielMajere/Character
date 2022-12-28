@@ -5,7 +5,7 @@
 .state-box {
   display: flex;
   flex-direction: row;
-  width: 520px;
+  min-width: 500px;
   background-color: #ddd;
   margin-top: 5px;
 }
@@ -50,4 +50,38 @@
 .userIntelligenceState,
 .userSpiritualPowerState {
   margin-left: 4px;
+}
+
+@media screen and (min-width: 360px) and (max-width: 649px) {
+  .state-box {
+    min-width: 350px;
+  }
+
+  .states-field {
+    margin-top: 15px;
+  }
+}
+
+@media screen and (min-width: 650px) and (max-width: 669px) {
+  .state-box {
+    min-width: 280px;
+  }
+  .states-field {
+    margin-top: 15px;
+  }
+}
+
+@media screen and (min-width: 670px) and (max-width: 849px) {
+  .state-box {
+    min-width: 300px;
+  }
+  .states-field {
+    margin-top: 15px;
+  }
+}
+
+@media screen and (min-width: 850px) and (max-width: 1200px) {
+  .state-box {
+    min-width: 350px;
+  }
 }

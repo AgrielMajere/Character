@@ -2,7 +2,6 @@ import './ProgressBarField.css';
 import users from '../../../src/users.json';
 
 function ProgressBarField() {
-  console.log(users[0].strength);
   return (
     <div className="states-field">
       <p>Strength</p>
